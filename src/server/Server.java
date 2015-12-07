@@ -22,7 +22,8 @@ public class Server {
             
             while (scanner.hasNextLine()) {
                 System.out.println(scanner.nextLine());
-            }   scanner.close();
+            }   
+            scanner.close();
             
             
             client.close();
